@@ -1,11 +1,7 @@
-
-var link = "https://www.codegrepper.com/code-examples/javascript/how+to+position+a+button+in+javascript"
-var vengelink = "https://www.codegrepper.com/code-examples/javascript/how+to+position+a+button+in+javascript"
-
-
-if (window.location.href === link){
+var vengelink = "https://venge.io/"
 var key = "Zaid"
 var link2 = "https://www.codegrepper.com/code-examples/javascript/how+to+position+a+button+in+javascript"
+
 if (confirm("do you want to get key if not click cancel ")) {
   txt = alert("OK");
 document.write('<!DOCTYPE html>');
@@ -105,21 +101,27 @@ let div = document.createElement("div");
 let btn = document.createElement("button");
 let btn2 = document.createElement("button");
 let vengeb = document.createElement("button");
-vengeb.style.opacity = "0";
+
 
 
 btn.innerHTML = "version";
 btn2.innerHTML = "Start";
 vengeb.innerHTML = "Venge.io!";
+btn.style= "display:  block"; 
+btn2.style= "display: block"; 
+vengeb.style= "display: block"; 
+vengeb.style.opacity = "0";
+
 
 
 div.id = "div_id" ;
     div.className = "div_class";
+    div.style= "display: inline-block"; 
     div.style = "background-color:#2c2c2c;";
     div.style.width = "300px";
     div.style.height = "300px";
-    document.body.appendChild(div);  
-    div.style.position = "absolute";
+    document.querySelector("#home").appendChild(div);  
+    div.style.position = "fixed";
     div.style.top =  "440px"; //or whatever 
     div.style.left = "1500px"; // or whatever
     div.style.borderRadius = "5px";
@@ -133,6 +135,7 @@ div.id = "div_id" ;
     btn.style.marginTop = "5px";
     btn2.style.width  = '58.95px';
     btn2.style.hight = '21px';
+    
     vengeb.style.marginTop = '257px'
     vengeb.style.marginLeft = "230px";
     vengeb.style.borderRadius = "5px";
@@ -147,7 +150,6 @@ btn.onclick = function () {
 if (key === "Zaid") {
 alert("You have the correct key");
 }
-
 vengeb.onclick = function () {
 
 if (window.location.href === vengelink){
@@ -156,6 +158,7 @@ alert("Thank you Krunkador For cheats");
 alert("Wrong game or webise make sure ur at venge lobby or else it will not work");
 }
 }
+
 btn2.onclick = function () {
 
 vengeb.style.opacity = "1";
@@ -174,9 +177,6 @@ alert("wrong key or it might be that you just dident type anyhting in the keybox
 div_id.appendChild(btn);
 div_id.appendChild(btn2);
 div_id.appendChild(vengeb);
-
-    
-}
 // The current position of mouse
 let x = 0;
 let y = 0;
