@@ -1,6 +1,6 @@
 
 var link = "https://www.codegrepper.com/code-examples/javascript/how+to+position+a+button+in+javascript"
-var vengelink = "https://venge.io/"
+var vengelink = "https://www.codegrepper.com/code-examples/javascript/how+to+position+a+button+in+javascript"
 
 
 if (window.location.href === link){
@@ -158,7 +158,7 @@ alert("Wrong game or webise make sure ur at venge lobby or else it will not work
 }
 btn2.onclick = function () {
 
-vengeb.style.opacity = "0";
+vengeb.style.opacity = "1";
 
 }
      
@@ -177,3 +177,43 @@ div_id.appendChild(vengeb);
 
     
 }
+// The current position of mouse
+let x = 0;
+let y = 0;
+
+// Query the element
+const ele = document.getElementById('div_id');
+
+// Handle the mousedown event
+// that's triggered when user drags the element
+const mouseDownHandler = function (e) {
+    // Get the current mouse position
+    x = e.clientX;
+    y = e.clientY;
+
+    // Attach the listeners to `document`
+    document.addEventListener('mousemove', mouseMoveHandler);
+    document.addEventListener('mouseup', mouseUpHandler);
+};
+
+const mouseMoveHandler = function (e) {
+    // How far the mouse has been moved
+    const dx = e.clientX - x;
+    const dy = e.clientY - y;
+
+    // Set the position of element
+    ele.style.top = `${ele.offsetTop + dy}px`;
+    ele.style.left = `${ele.offsetLeft + dx}px`;
+
+    // Reassign the position of mouse
+    x = e.clientX;
+    y = e.clientY;
+};
+
+const mouseUpHandler = function () {
+    // Remove the handlers of `mousemove` and `mouseup`
+    document.removeEventListener('mousemove', mouseMoveHandler);
+    document.removeEventListener('mouseup', mouseUpHandler);
+};
+
+ele.addEventListener('mousedown', mouseDownHandler);
