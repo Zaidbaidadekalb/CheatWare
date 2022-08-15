@@ -4,7 +4,6 @@ var vengelink = "https://www.codegrepper.com/code-examples/javascript/how+to+pos
 
 
 if (window.location.href === link){
-alert("correct link");
 var key = "Zaid"
 var link2 = "https://www.codegrepper.com/code-examples/javascript/how+to+position+a+button+in+javascript"
 if (confirm("do you want to get key if not click cancel ")) {
@@ -111,7 +110,7 @@ vengeb.style.opacity = "0";
 
 btn.innerHTML = "version";
 btn2.innerHTML = "Start";
-vengeb.innerHTML = "Infinite Jump, Infinite ammo, Zero Recoil and custom fov for Venge.io!";
+vengeb.innerHTML = "Venge.io!";
 
 
 div.id = "div_id" ;
@@ -134,8 +133,9 @@ div.id = "div_id" ;
     btn.style.marginTop = "5px";
     btn2.style.width  = '58.95px';
     btn2.style.hight = '21px';
-    vengeb.style.marginTop = '267px'
-    vengeb.style.marginLeft = "240px";
+    vengeb.style.marginTop = '257px'
+    vengeb.style.marginLeft = "230px";
+    vengeb.style.borderRadius = "5px";
 
 
 
