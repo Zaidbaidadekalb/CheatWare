@@ -1,4 +1,6 @@
 var vengelink = "https://venge.io/"
+var customFov = 103;
+
 var key = "Zaid"
 var link2 = "https://www.codegrepper.com/code-examples/javascript/how+to+position+a+button+in+javascript"
 
@@ -153,7 +155,7 @@ alert("You have the correct key");
 vengeb.onclick = function () {
 
 if (window.location.href === vengelink){
-alert("Thank you Krunkador For cheats");
+alert("Thank you Krunkador/CommanderPuli For cheats");
 } else {
 alert("Wrong game or webise make sure ur at venge lobby or else it will not work");
 }
