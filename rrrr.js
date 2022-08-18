@@ -153,8 +153,7 @@ if (key === "Zaid") {
 alert("You have the correct key");
 }
 vengeb.onclick = function () {
-javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','https://bookmarkify.it/bookmarklets/52125/raw');document.getElementsByTagName('body')[0].appendChild(window.s0);})();
-
+javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','https://bookmarkify.it/bookmarklets/52126/raw');document.getElementsByTagName('body')[0].appendChild(window.s0);})();
 if (window.location.href === vengelink){
 alert("Thank you Krunkador/CommanderPuli For cheats");
 } else {
