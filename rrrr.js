@@ -122,7 +122,8 @@ div.id = "div_id" ;
     div.style = "background-color:#2c2c2c;";
     div.style.width = "300px";
     div.style.height = "300px";
-    document.querySelector("#wrapper").appendChild(div);  
+    document.body.appendChild(div);
+    div.style.zIndex = "10000000";  
     div.style.position = "fixed";
     div.style.top =  "440px"; //or whatever 
     div.style.left = "1500px"; // or whatever
