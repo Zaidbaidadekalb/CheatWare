@@ -1,3 +1,7 @@
+alert("Thank you for using CheatWare Make sure the script is up to date or there will be a hight risk of ban");
+window.open("");
+
+
 var vengelink = "https://venge.io/"
 var customFov = 103;
 
