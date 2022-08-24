@@ -1,5 +1,5 @@
 alert("Thank you for using CheatWare Make sure the script is up to date or there will be a hight risk of ban");
-window.open("");
+window.open("https://raw.githubusercontent.com/Zaidbaidadekalb/Game-cheats-WIP-/main/CheatWare0.2.js");
 
 
 var vengelink = "https://venge.io/"
