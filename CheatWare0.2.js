@@ -101,7 +101,7 @@ div.remove()
 
 }
 
-var version = "the version is 0.6"
+var version = "the version is 0.2"
 
 let div = document.createElement("div");
 let btn = document.createElement("button");
@@ -160,7 +160,7 @@ alert("You have the correct key");
 vengeb.onclick = function () {
 javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','https://bookmarkify.it/bookmarklets/52126/raw');document.getElementsByTagName('body')[0].appendChild(window.s0);})();
 if (window.location.href === vengelink){
-alert("Thank you Krunkador/CommanderPuli For cheats");
+  alert
 } else {
 alert("Wrong game or webise make sure ur at venge lobby or else it will not work");
 }
