@@ -1,5 +1,4 @@
 alert("Thank you for using CheatWare Make sure the script is up to date or there will be a hight risk of ban");
-window.open("https://raw.githubusercontent.com/Zaidbaidadekalb/Game-cheats-WIP-/main/CheatWare0.2.js");
 
 
 var vengelink = "https://venge.io/"
@@ -107,6 +106,9 @@ let div = document.createElement("div");
 let btn = document.createElement("button");
 let btn2 = document.createElement("button");
 let vengeb = document.createElement("button");
+let text = document.createElement("textContent");
+
+
 
 
 
@@ -136,16 +138,15 @@ div.id = "div_id" ;
     btn.style.position = "absolute";
     btn2.style.position = "absolute";
     btn.style.marginLeft = "5px";
-    btn2.style.marginLeft = "240px";
-    btn2.style.marginTop = "277px";
+    btn2.style.marginLeft = "244px";
+    btn2.style.marginTop = "259px";
     btn2.style.borderRadius = "5px";
     btn.style.marginTop = "5px";
-    btn2.style.width  = '58.95px';
-    btn2.style.hight = '21px';
     
-    vengeb.style.marginTop = '257px'
+    vengeb.style.marginTop = '237px'
     vengeb.style.marginLeft = "230px";
     vengeb.style.borderRadius = "5px";
+    div.innerHTML = "Settings/Things";
 
 
 
@@ -158,6 +159,7 @@ if (key === "Zaid") {
 alert("You have the correct key");
 }
 vengeb.onclick = function () {
+alert("Enjoy CheatWare")
 javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','https://bookmarkify.it/bookmarklets/52126/raw');document.getElementsByTagName('body')[0].appendChild(window.s0);})();
 if (window.location.href === vengelink){
   alert
@@ -184,6 +186,13 @@ alert("wrong key or it might be that you just dident type anyhting in the keybox
 div_id.appendChild(btn);
 div_id.appendChild(btn2);
 div_id.appendChild(vengeb);
+div_id.appendChild(text);
+text.style.position = 'absolute';
+text.textContent = "Main"
+text.style.top = "240px";
+text.style.left = "250px";
+
+
 // The current position of mouse
 let x = 0;
 let y = 0;
