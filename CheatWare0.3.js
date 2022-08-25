@@ -107,7 +107,7 @@ let btn = document.createElement("button");
 let btn2 = document.createElement("button");
 let vengeb = document.createElement("button");
 let text = document.createElement("textContent");
-
+let github = document.createElement("button");
 
 
 
@@ -117,6 +117,7 @@ btn2.innerHTML = "Start";
 vengeb.innerHTML = "Venge.io!";
 btn.style= "display:  block"; 
 btn2.style= "display: block"; 
+github.style = "display: block";
 vengeb.style= "display: block"; 
 vengeb.style.opacity = "0";
 
@@ -142,13 +143,15 @@ div.id = "div_id" ;
     btn2.style.marginTop = "259px";
     btn2.style.borderRadius = "5px";
     btn.style.marginTop = "5px";
-    
+    github.style.borderRadius = "5px";
+    github.style.position = "absolute";
+    btn.style.marginLeft = "5px";
+    github.style.marginTop = "-230px";
     vengeb.style.marginTop = '237px'
     vengeb.style.marginLeft = "230px";
     vengeb.style.borderRadius = "5px";
     div.innerHTML = "Settings/Things";
-
-
+    github.innerHTML = "GitHub Page";
 
     
 btn.onclick = function () {
@@ -181,12 +184,15 @@ div.remove()
 alert("wrong key or it might be that you just dident type anyhting in the keybox");
 
 }
-
+github.onclick = function () {
+window.open("https://github.com/Zaidbaidadekalb/Game-cheats-WIP-");
+}
 //End of Key \\
 div_id.appendChild(btn);
 div_id.appendChild(btn2);
 div_id.appendChild(vengeb);
 div_id.appendChild(text);
+div_id.appendChild(github);
 text.style.position = 'absolute';
 text.textContent = "Main"
 text.style.top = "240px";
