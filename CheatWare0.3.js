@@ -100,7 +100,7 @@ div.remove()
 
 }
 
-var version = "the version is 0.2"
+var version = "the version is 0.3"
 
 let div = document.createElement("div");
 let btn = document.createElement("button");
