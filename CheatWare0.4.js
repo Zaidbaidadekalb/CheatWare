@@ -140,20 +140,33 @@ div.id = "div_id" ;
     btn2.style.position = "absolute";
     btn.style.marginLeft = "5px";
     btn2.style.marginLeft = "244px";
-    btn2.style.marginTop = "259px";
+    btn2.style.marginTop = "253px";
     btn2.style.borderRadius = "5px";
     btn.style.marginTop = "5px";
     github.style.borderRadius = "5px";
     github.style.position = "absolute";
     btn.style.marginLeft = "5px";
-    github.style.marginTop = "-230px";
-    vengeb.style.marginTop = '237px'
+    github.style.marginTop = "-220px";
+    vengeb.style.marginTop = '227px'
     vengeb.style.marginLeft = "230px";
     vengeb.style.borderRadius = "5px";
     div.innerHTML = "Settings/Things";
     github.innerHTML = "GitHub Page";
+    btn.style.backgroundColor = "#282828FF";
+    github.style.backgroundColor = "#282828FF";
+    btn2.style.backgroundColor = "#282828FF";
+    vengeb.style.backgroundColor = "#282828FF";
+    btn.style.border = "2 #FFFFFFB7";
+    btn2.style.border = "2 #FFFFFFB7";
+    github.style.border = "2 #FFFFFFB7";
+    vengeb.style.border = "2 #FFFFFFB7";
+    btn.style.padding = "3px 7px 3px 7px";
+    btn2.style.padding = "3px 7px 3px 7px";
+    github.style.padding = "3px 7px 3px 7px";
+    vengeb.style.padding = "3px 7px 3px 7px";
 
-    
+
+
 btn.onclick = function () {
   alert(version);
 };
@@ -195,7 +208,7 @@ div_id.appendChild(text);
 div_id.appendChild(github);
 text.style.position = 'absolute';
 text.textContent = "Main"
-text.style.top = "240px";
+text.style.top = "210px";
 text.style.left = "250px";
 
 
