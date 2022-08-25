@@ -38,3 +38,10 @@ let urls = [
 
 ];
 ```
+
+# error code 140
+This means your on the wrong url or there is something wrong with the url 
+this usialy happens when leving a game in venge.io 
+Just remove the # in the url 
+
+![Screenshot 2022-08-25 183921](https://user-images.githubusercontent.com/87798207/186780973-efd0e4cc-bd0f-4132-8ee2-66ef34f4ecf8.png)
